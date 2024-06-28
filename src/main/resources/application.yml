@@ -7,15 +7,13 @@ spring:
     mode: HTML
 
   datasource:
-    url: jdbc:mysql://rm-bp10dkvhokk30a8ae6o.mysql.rds.aliyuncs.com:3306/blog?useSSL=true
+    url: jdbc:mysql://localhost:3306/blog?useSSL=true
     username: root
-    password: 696841125e104edc816aaf85edfd3967
-
+    password: Aa995511.
 # 用于通过IP查找地址的百度API
 baiduApi:
-  accessKey: 0962af51ad37430786a8723d9e018f71
-  secretKey: f3c38615a64c4a6cbdc48fe2717830bc
-
+  accessKey: 
+  secretKey: 
 # 用于微信推送消息
 pushMessage:
   token: 
